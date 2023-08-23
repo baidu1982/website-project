@@ -8,9 +8,45 @@
     <title>Registration Form</title>
 </head>
  <body>
+<!-- my navbar -->
+<!-- <nav> -->
+<!-- <div class="index"> -->
+<nav>
+    <label class="logo"><img src="./webimages/logo.jpeg" height="100px" width="150px"></label>
+    <div class="nav-bar">
+      <a href="./index.html">Vicky's Travel Agency</a>
+      <a href="./aboutus.html"> About Us</a>
+      <a href="./Greece.html">Greece</a>
+      <a href="./Japan.html">Japan</a>  
+      <a href="./contactus.html"> Contact us</a>
+  </div>
+</nav>
+</div>
+
+<h2> Contact Us Form</h2>
+<div class="container">
+    <form action="action_page.php">
+      <label for="fname">First Name</label>
+         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">UK</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+ 
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+       <input type="submit" value="Submit">
+     </form>
+
+</div>
+
+   <!-- <h1 class="form-title">Registration</h1>
     <div class="container">
-        <h1 class="form-title">Registration</h1>
-        <form action="#">
+         <form action="#">
            <div class="main-user-info">
             <div class="user-input-box"></div>
                 <label for="fullname">Full Name</label>
@@ -18,22 +54,22 @@
                         id="fullname"
                         name="fullname"
                         placeholder="Enter Full Name"/>       
-             </div>
+            
              <div class="user-input-box"></div>
                 <label for="email">Email</label>
                 <input type="text"
                          id="email"
                          name="email"
                          placeholder=" Enter Email"/>       
-                </div>
+           
                  <div class="user-input-box"></div>
                     <label for="Phnoenumber">Phone Number</label>
                     <input type="text"
                           id="Phnoenumber"
                           name="Phonenumber"
                           placeholder=" Enter Phone Number"/>       
-                  </div>
-                  <div class="user-input-box"></div>
+                 </div>
+                 <div class="user-input-box"></div>
                     <label for="Password">Password</label>
                     <input type="password"
                          id="password"
@@ -45,9 +81,12 @@
                    <input type="password"
                           id="confirmpassword"
                           name="confirmpassword"
-                          placeholder= "Confirm Password"/>       
-             </div>
+                          placeholder= "Confirm Password"/>  
+               </div>
+            </div>
            </div>
+         </div>
+      </div> 
            <div class="gender-details-box">
             <span class="gender-title">Gender</span>
             <div class="gender-category">
@@ -62,10 +101,16 @@
            <div class="form-submit-btn">
             <input type="submit" value="Register">
            </div>
-            
-        </form> 
-     </div>
-    </div class="navbar" > 
-    <a href="index.html">Home Page</a>
- </body>
+          </form>  -->
+ 
+ <footer class="footer-container">
+   <div class="social-links">
+       <a href=""><i class="fa-brands fa-facebook"></i></a>
+       <a href=""><i class="fa-brands fa-twitter"></i></a>
+       <a href=""><i class="fa-brands fa-instagram"></i></a>
+       <a href=""><i class="fa-brands fa-linkedin"></i></a>
+   </div>
+ 
+</footer>
+</body>
 </html>

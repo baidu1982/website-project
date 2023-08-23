@@ -1,11 +1,45 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+    /* justify-content: center; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 body{
     background-color: white, 130, 130;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: right;
+    margin-right: 170px;
+    /* padding: 2%; */
+}
+h4{
+    text-align: left;
+    font-size: 35px;
+    margin-left: 40px;
+
+}
+h5{
+    text-align: left;
+    font-size: 35px;
+    margin-left: 40px;
+
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
 }
 
 .hero-container{
@@ -16,118 +50,159 @@ body{
     padding: 0%;
 }
 
-.img-container-Greece{
-    display: -flex;
+.img-container-greece{
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    height: 100px;
     padding-bottom: 10%;
+    flex-direction: column;
     }
-.img-container-Greece img{
-    width: 350px;
-    height: 250px;
+.img-container-greece img{
+    width: 800px;
+    height: 550px;
 }
 .img-links{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.img-container-Japan{
-    display: -flex;
+.img-container-japan{
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    height: 100px;
     padding-bottom: 10%;
+    flex-direction: column;
     }
 .img-container-japan img{
-    width: 350px;
-    height: 250px;
+    width: 800px;
+    height: 550px;
 }
 .img-links{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.img-container-aboutus{
-    width: 100px;
-    border-radius: 50px;
-    float: left;
-    margin: right;
-}
-
-i
-h1 {
-    color: black;
-    font-size: 30px;
-    text-align: center;
-}
-.nav-items {
-    height: 80px;
-    background: silver;
+.img-container-aboutus {
     display: flex;
-    justify-content: space-between;
-    align-items: centre;
-    padding: 0rem calc((100vw - 1300px) / 2);
-}
-.nav-items {
-    color: blue;
-    text-align: ;
-    justify-content: flex-end;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: normal;
-    padding: 0 2rem;
-}
+    justify-content: right;
+    margin-right: 100px;
 
-
-footer{
-    background-color:aqua;
+   
+}
+.img-container-aboutus img{
+    /* width: 100px; */
+    border-radius: 50%;
+    display: flex;
+    margin-right: 50px;
     }
-.footercontainer{
-    width: 100px;
-    padding: 70px 30px 20px;
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+
+
+
+input[type=text], select, textarea {
+
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+
 }
-.sociallinks{
+
+ 
+
+input[type=submit] {
+
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #556b2f;
+}
+
+
+
+.container {
+    border-radius: 10px;
+    background-color: #55dae6;
+    padding: 3rem;
+    margin: 7.5%;
+}
+
+.nav-bar {
+    /* height: 100px; */
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    /* font-size: 15px; */
+  
 }
-.sociallinks a{
+.logo {
+    /* height: 200px; */
+    display: flex;
+    justify-content: left;
+}
+
+.footer-container{
+    background-color: white;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    }
+
+.social-links{
+    display: flex;
+    justify-content: right;
+    size: 20px;
+}
+.social-links a{
     text-decoration: none;
-    padding: 10px;
-    background-color: gray;
-    margin: 10px;
+    padding: 5px;
+    background-color: rgb(40, 189, 209);
+    margin: 0px;
     border-radius: 50%;
 }
-.sociallinks a i{
+.social-links a i{
     font-size: 2em;
     color: blue;
     opacity: 0.9;
 }
-/* social links hover effects */
-.sociallinks a:hover{
+
+.social-links a:hover{
     background-color: black;
     transition: 0.5s;
 }
 
-.sociallinks a:hover i{
+.social-links a:hover i{
     color: white;
     transition: 0.5;
 }
-.footernav{
-    margin: 30px 0;
-}
-.footernav nav{
-    display: flex;
-    justify-content: center;
-    
-}
-.footernav nav a:hover{
-    color: white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.5em;
-    opacity: 0.7;
-    transition: 0.5;
-}
+/* .navbar{
+    margin: 0px;
+} */
+/* .navbar{
+    display: auto;
+    justify-content: right;
+} */
